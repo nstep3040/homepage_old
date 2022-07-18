@@ -1,0 +1,87 @@
+<?php
+if(!isset($_SERVER['PHP_AUTH_USER'])){
+	header('WWW-Authenticate: Basic realm="NextStep"');
+	header('HTTP/1.0 401 Unauthorized');
+	echo "Auth Failed";
+	die();
+} else {
+	if( ($_SERVER['PHP_AUTH_USER']=="ns"&&$_SERVER['PHP_AUTH_PW']=="gogo10djr")||($_SERVER['PHP_AUTH_USER']=="login"&&$_SERVER['PHP_AUTH_PW']=="1q2w3e4r")){
+?><!doctype html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>대구광역시 지도(<?php echo $_SERVER['PHP_AUTH_USER'] ?> / <?php echo $_SERVER['PHP_AUTH_PW'] ?>)</title>
+	<script src="//code.jquery.com/jquery-latest.js"></script>
+	<script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=bd47cfa62333dc605aa315fcb7e7549e"></script>
+</head>
+<body>
+<div id="map" style="width:1280px;height:800px;"></div>
+
+<script>document.execCommand('ClearAuthenticationCache');
+	var container = document.getElementById('map'); //지도를 담을 영역의 DOM 레퍼런스
+	var options = { //지도를 생성할 때 필요한 기본 옵션
+		center: new daum.maps.LatLng(35.857906, 128.557423), //지도의 중심좌표.
+		level: 7 //지도의 레벨(확대, 축소 정도)
+	};
+
+	var map = new daum.maps.Map(container, options); //지도 생성 및 객체 리턴
+
+	var data=[
+		{locationName:"대구광역시청(34부서)",lat:"35.871398",lng:"128.601750",count:163},
+		{locationName:"시청 별관(34부서)",lat:"35.892500",lng:"128.600484",count:108},
+		{locationName:"보건환경연구원",lat:"35.830891",lng:"128.633041",count:9},
+		{locationName:"건설본부",lat:"35.830438",lng:"128.632137",count:13},
+/*		{locationName:"공무원교육원",lat:"35.830438",lng:"128.632137",count:"0"},*/
+		{locationName:"도시철도건설본부",lat:"35.819086",lng:"128.540418",count:7},
+		{locationName:"농업기술센터",lat:"35.879915",lng:"128.660636",count:1},
+		{locationName:"V농수산물도매시장",lat:"35.903128",lng:"128.543228",count:5},
+/*		{locationName:"팔공산",lat:"35.830438",lng:"128.632137",count:0},*/
+		{locationName:"종합복지회관",lat:"35.849996",lng:"128.571283",count:2},
+		{locationName:"문화예술회관",lat:"35.844967",lng:"128.559368",count:14},
+		{locationName:"대구미술관",lat:"35.827170",lng:"128.674198",count:1},
+/*		{locationName:"여성회관",lat:"35.830438",lng:"128.632137",count:0},*/
+		{locationName:"수목원관리사무소",lat:"35.801201",lng:"128.520430",count:3},
+		{locationName:"v동부여성문화회관",lat:"35.890381",lng:"128.622466",count:3},
+		{locationName:"달성공원관리사무소",lat:"35.873672",lng:"128.577721",count:2},
+		{locationName:"앞산공원관리사무소",lat:"35.828740",lng:"128.589178",count:2},
+		{locationName:"두류공원관리사무소",lat:"35.850999",lng:"128.557305",count:2},
+		{locationName:"어린이회관",lat:"35.846641",lng:"128.627751",count:1},
+		{locationName:"시설안전관리사업소",lat:"35.833684",lng:"128.489279",count:1},
+		{locationName:"환경자원사업소",lat:"35.881515",lng:"128.509634",count:2},
+		{locationName:"체육시설관리사무소",lat:"35.882538",lng:"128.583340",count:6},
+		{locationName:"차량등록사업소",lat:"35.866765",lng:"128.639770",count:15},
+		{locationName:"소방안전본부",lat:"35.877815",lng:"128.592423",count:12},
+		{locationName:"중부소방서",lat:"35.862604",lng:"128.575213",count:8},
+		{locationName:"동부소방서",lat:"35.876000",lng:"128.625276",count:10},
+		{locationName:"서부소방서",lat:"35.881922",lng:"128.554338",count:11},
+		{locationName:"북부소방서",lat:"35.878013",lng:"128.592371",count:9},
+		{locationName:"수성소방서",lat:"35.825604",lng:"128.644225",count:4},
+		{locationName:"달서소방서",lat:"35.831056",lng:"128.534726",count:8},
+		{locationName:"달성소방서",lat:"35.682532",lng:"128.446942",count:4},
+		{locationName:"강서소방서",lat:"35.855364",lng:"128.467398",count:4}
+	];
+	var maxcount=0;
+	$(data).each(function(i,row){
+		var markerPosition=new daum.maps.LatLng(row.lat,row.lng);
+		var marker=new daum.maps.Marker({
+			position:markerPosition
+		});
+		marker.setMap(map);
+		var iwContent = '<div style="border:red 2px;padding:5px;font-size:12px;text-align:center;font-weight:bold;color:red;">'+row.locationName+"("+row.count+')</div>';
+		var infowindow=new daum.maps.InfoWindow({
+			position:markerPosition,
+			content:iwContent
+		});
+		infowindow.open(map,marker);
+		maxcount+=row.count;
+	});
+</script>
+</body>
+</html>
+<?php
+
+	} else {
+		header('HTTP/1.0 401 Unauthorized');
+		unset($_SERVER['PHP_AUTH_USER']);
+		die("Auth Failed<script>document.execCommand('ClearAuthenticationCache');</script>");
+	}
+}

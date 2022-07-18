@@ -1,0 +1,55 @@
+@charset "utf-8";
+@import url("reset.css");
+.wrap {
+    width: 220px;
+}
+
+.lnb1 h3 {
+    width: 200px;
+    background-color: #2475b9;
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.lnb1 h3:first-child {
+    margin-bottom: 5px;
+}
+
+.lnb1 h3 a {
+    color: #fff;
+    display: block;
+}
+
+.lnb1 p {
+    width: 200px;
+    line-height: 35px;
+    background-color: #93cddd;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.lnb1 p a {
+    color: #000;
+    display: block;
+}
+
+.lnb2 {
+    margin-top: 100px;
+    width: 220px;
+    background-color: lightgray;
+}
+
+.lnb2 h2 {
+    font-size: 18px;
+    line-height: 35px;
+    color: #444;
+}
+
+.lnb2 p {
+    font-size: 11px;
+    line-height: 25px;
+    color: #666;
+}

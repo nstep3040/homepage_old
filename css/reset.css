@@ -1,0 +1,120 @@
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+caption,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td,
+form,
+fieldset,
+legend,
+label,
+address,
+blockquote,
+header,
+footer,
+section,
+article,
+aside,
+figure,
+figcaption,
+details,
+hgroup,
+nav,
+menu,
+audio,
+video,
+canvas,
+time,
+mark {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer,
+section,
+article,
+aside,
+figure,
+figcaption,
+details,
+nav,
+menu {
+    display: block;
+}
+
+li {
+    list-style-type: none;
+}
+
+img,
+fieldset {
+    border: none;
+}
+
+li img,
+li a,
+dt img,
+dt img,
+dd a,
+dt a {
+    vertical-align: top;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+address,
+em {
+    font-style: normal;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+}
+
+
+/* 브라우저에 표현되지는 않고 낭독 프로그램에서 읽어주기만 할 요소*/
+
+.hide {
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -9999px;
+}
+
+
+/* 텍스트 숨기기 */
+
+.text_hide {
+    font-size: 0;
+    text-indent: -9999em;
+    overflow: hidden;
+}

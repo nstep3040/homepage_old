@@ -1,0 +1,17 @@
+.popup_wrap {
+    width: 600px;
+}
+.button_wrap {
+    float: right;
+}
+.button_wrap > input:hover,
+.button_wrap > label:hover {
+    cursor: pointer;
+}
+.notice {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    height: 686px;
+    padding-bottom: 5px;
+}
