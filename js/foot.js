@@ -1,0 +1,5 @@
+document.write(`
+    <div class="footer">
+        <p>Copyright(c) Since 1999 NextStep Co. All rights reserved.</p>
+    </div>
+`);
