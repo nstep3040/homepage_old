@@ -1,62 +1,70 @@
-<?php $sub="1";$sub2="5"; include "../head.html" ?>
-            <div class="content">
-                <div class="wrap1">
-                    <div class="lnb1">
-                        <h3><a href="sub_1.html">&nbsp;&nbsp;자동화 부품</a></h3>
-                        <h3><a href="sub_6.html">&nbsp;&nbsp;RFID</a></h3>
-                        <h3 class="on"><a href="sub_11.html">&nbsp;&nbsp;수중 장비</a></h3>
-                    </div>
-                    <?php include "../include/lnb0.html" ?>
+<!DOCTYPE html>
+<html lang="ko">
 
-                </div>
-					<div style="width:500px;padding:5px 50px;float:left;">
-						<h2>Contact Us:</h2>
-						<hr />
-						<p style="line-height:180%;font-family:'맑은 고딕'">
-						<strong>(주) 넥스텝 / NextStep Co., Ltd.</strong><br />
-						대구광역시 북구 유통단지로 16<br />
-						(산업용재관 23동 4호)<br />
-						Tel: 053) 604-3040/1<br />
-						Fax: 053) 604-3042<br />
-						E-mail: ns@nstep.co.kr
-						</p><br /><br />
-						<h2>Location Map:</h2>
-						<hr />
-						<div id="map" style="width:490px;height:400px"></div>
-						<script async defer
-						src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKyTa6EXJgvjTwnW1e48f5u78IoPgtBeQ &callback=initMap">
-						</script>
-						<script>
-						  function initMap() {
-							var uluru = {lat: 35.903088, lng: 128.605338};
-							var map = new google.maps.Map(document.getElementById('map'), {
-							  zoom: 17,
-							  center: uluru
-							});
-							var marker = new google.maps.Marker({
-							  position: uluru,
-							  map: map,
-							  icon:"http://nstep.co.kr/img/logomap.png"
-							});
-						  }
-						</script>
-					</div>
-				<div style="width:500px;float:left;padding:50px;">
-					<div id="map" style="width:500px;height:400px"></div>
-					<script>
-					  function initMap() {
-						var uluru = {lat: 35.903088, lng: 128.605338};
-						var map = new google.maps.Map(document.getElementById('map'), {
-						  zoom: 17,
-						  center: uluru
-						});
-						var marker = new google.maps.Marker({
-						  position: uluru,
-						  map: map,
-						  icon:"http://nstep.co.kr/img/logomap.png"
-						});
-					  }
-					</script>
-				</div>
-            </div>
-<?php include "../foot.html" ?>
+<head>
+	<script src="../js/head.js"></script>
+	<div class="content">
+		<div class="wrap1">
+			<div class="lnb1">
+				<h3><a href="sub_1.html">&nbsp;&nbsp;자동화 부품</a></h3>
+				<h3><a href="sub_6.html">&nbsp;&nbsp;RFID</a></h3>
+				<h3 class="on"><a href="sub_11.html">&nbsp;&nbsp;수중 장비</a></h3>
+			</div>
+			<script src="../js/lnb0.js"></script>
+
+		</div>
+		<div style="width:500px;padding:5px 50px;float:left;">
+			<h2>Contact Us:</h2>
+			<hr />
+			<p style="line-height:180%;font-family:'맑은 고딕'">
+				<strong>(주) 넥스텝 / NextStep Co., Ltd.</strong><br />
+				대구광역시 북구 유통단지로 16<br />
+				(산업용재관 23동 4호)<br />
+				Tel: 053) 604-3040/1<br />
+				Fax: 053) 604-3042<br />
+				E-mail: ns@nstep.co.kr
+			</p><br /><br />
+			<h2>Location Map:</h2>
+			<hr />
+			<div id="map" style="width:490px;height:400px"></div>
+			<script async defer
+				src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKyTa6EXJgvjTwnW1e48f5u78IoPgtBeQ &callback=initMap">
+				</script>
+			<script>
+				function initMap() {
+					var uluru = { lat: 35.903088, lng: 128.605338 };
+					var map = new google.maps.Map(document.getElementById('map'), {
+						zoom: 17,
+						center: uluru
+					});
+					var marker = new google.maps.Marker({
+						position: uluru,
+						map: map,
+						icon: "http://nstep.co.kr/img/logomap.png"
+					});
+				}
+			</script>
+		</div>
+		<div style="width:500px;float:left;padding:50px;">
+			<div id="map" style="width:500px;height:400px"></div>
+			<script>
+				function initMap() {
+					var uluru = { lat: 35.903088, lng: 128.605338 };
+					var map = new google.maps.Map(document.getElementById('map'), {
+						zoom: 17,
+						center: uluru
+					});
+					var marker = new google.maps.Marker({
+						position: uluru,
+						map: map,
+						icon: "http://nstep.co.kr/img/logomap.png"
+					});
+				}
+			</script>
+		</div>
+	</div>
+	<script src="../js/rnb.js"></script>
+	<script src="../js/foot.js"></script>
+	</body>
+
+</html>
