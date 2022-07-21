@@ -1,116 +1,116 @@
 @charset "utf-8";
-@import url("common.css");
+@import url("./common.css");
 .wrap1 {
-    width: 220px;
-    float: left;
+  width: 220px;
+  float: left;
 }
 
 .wrap1 .lnb1 h3 {
-    width: 200px;
-    background-color: #2475b9;
-    line-height: 35px;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 15px;
+  width: 200px;
+  background-color: #2475b9;
+  line-height: 35px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
 .wrap1 .lnb1 h3:first-child {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .wrap1 .lnb1 h3 a {
-    color: #fff;
-    display: block;
+  color: #fff;
+  display: block;
 }
 
 .wrap1 .lnb1 p {
-    width: 200px;
-    line-height: 35px;
-    background-color: #93cddd;
-    font-weight: bold;
-    margin-bottom: 5px;
-    margin-left: 20px;
+  width: 200px;
+  line-height: 35px;
+  background-color: #93cddd;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-left: 20px;
 }
 
 .wrap1 .lnb1 p a {
-    color: #000;
-    display: block;
+  color: #000;
+  display: block;
 }
 
 .wrap1 .lnb0 {
-    margin-top: 100px;
-    width: 220px;
-    background-color: lightgray;
+  margin-top: 100px;
+  width: 220px;
+  background-color: lightgray;
 }
 
 .wrap1 .lnb0 h2 {
-    font-size: 18px;
-    line-height: 35px;
-    color: #444;
+  font-size: 18px;
+  line-height: 35px;
+  color: #444;
 }
 
 .wrap1 .lnb0 p {
-    font-size: 11px;
-    line-height: 25px;
-    color: #666;
+  font-size: 11px;
+  line-height: 25px;
+  color: #666;
 }
 
 .wrap .lnb2 {
-    width: 600px;
-    float: right;
-    margin-right: 30px;
-    background-color: #dbeef4;
+  width: 600px;
+  float: right;
+  margin-right: 30px;
+  background-color: #dbeef4;
 }
 
 .lnb3 {
-    width: 600px;
-    float: right;
-    margin-right: 30px;
+  width: 600px;
+  float: right;
+  margin-right: 30px;
 }
 
 .lnb4 {
-    width: 600px;
-    float: right;
-    margin-right: 30px;
-    background-color: #dbeef4;
+  width: 600px;
+  float: right;
+  margin-right: 30px;
+  background-color: #dbeef4;
 }
 
 .box1 {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .lnb4 img {
-    float: right;
-    margin-right: 10px;
+  float: right;
+  margin-right: 10px;
 }
 
 h4 {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
 }
 
 h4:first-child {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 img {
-    display: block;
-    margin: 10px;
+  display: block;
+  margin: 10px;
 }
 
 .lnb2 img {
-    margin: 10px auto;
+  margin: 10px auto;
 }
 
 p {
-    font-size: 15px;
-    margin-left: 10px;
-    line-height: 20px;
-    margin-right: 10px;
+  font-size: 15px;
+  margin-left: 10px;
+  line-height: 20px;
+  margin-right: 10px;
 }
 
 p.frist {
-    margin-top: 20px;
-    margin-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }

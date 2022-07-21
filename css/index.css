@@ -1,30 +1,30 @@
 @charset "utf-8";
-@import url("common.css");
+@import url("./common.css");
 .content .hello {
-    width: 760px;
-    margin: 20px auto;
-    font-size: 16px;
+  width: 760px;
+  margin: 20px auto;
+  font-size: 16px;
 }
 
-.hello>img {
-    width: 180px;
-    margin-right: 10px;
+.hello > img {
+  width: 180px;
+  margin-right: 10px;
 }
 
 .hello span {
-    line-height: 26px;
-    font-size: 18px;
+  line-height: 26px;
+  font-size: 18px;
 }
 
 .content .main {
-    width: 760px;
-    margin: 30px auto;
+  width: 760px;
+  margin: 30px auto;
 }
 
-.content .main>div>img {
-	float:left;
-    margin-right: 5px;
-    margin-left: 5px;
-    border: 3px solid #4f81bd;
-    border-radius: 1%;
+.content .main > div > img {
+  float: left;
+  margin-right: 5px;
+  margin-left: 5px;
+  border: 3px solid #4f81bd;
+  border-radius: 1%;
 }

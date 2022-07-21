@@ -1,102 +1,102 @@
 @charset "utf-8";
-@import url("common.css");
+@import url("./common.css");
 .wrap1 {
-    width: 220px;
-    float: left;
+  width: 220px;
+  float: left;
 }
 
 .wrap1 .lnb1 h3 {
-    width: 200px;
-    background-color: #2475b9;
-    line-height: 35px;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 15px;
+  width: 200px;
+  background-color: #2475b9;
+  line-height: 35px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
 .wrap1 .lnb1 h3.on {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .wrap1 .lnb1 h3 a {
-    color: #fff;
-    display: block;
+  color: #fff;
+  display: block;
 }
 
 .wrap1 .lnb1 p {
-    width: 200px;
-    line-height: 35px;
-    background-color: #93cddd;
-    font-weight: bold;
-    margin-bottom: 5px;
-    margin-left: 20px;
+  width: 200px;
+  line-height: 35px;
+  background-color: #93cddd;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-left: 20px;
 }
 
 .wrap1 .lnb1 p a {
-    color: #000;
-    display: block;
+  color: #000;
+  display: block;
 }
 
 .wrap1 .lnb0 {
-    margin-top: 100px;
-    width: 220px;
-    background-color: lightgray;
+  margin-top: 100px;
+  width: 220px;
+  background-color: lightgray;
 }
 
 .wrap1 .lnb0 h2 {
-    font-size: 18px;
-    line-height: 35px;
-    color: #444;
+  font-size: 18px;
+  line-height: 35px;
+  color: #444;
 }
 
 .wrap1 .lnb0 p {
-    font-size: 11px;
-    line-height: 25px;
-    color: #666;
+  font-size: 11px;
+  line-height: 25px;
+  color: #666;
 }
 
 .wrap .lnb2 {
-    width: 600px;
-    float: right;
-    margin-right: 30px;
-    background-color: #dbeef4;
+  width: 600px;
+  float: right;
+  margin-right: 30px;
+  background-color: #dbeef4;
 }
 
 .box1 {
-    width: 300px;
-    float: left;
+  width: 300px;
+  float: left;
 }
 
 .box0 {
-    width: 600px;
-    overflow: hidden;
+  width: 600px;
+  overflow: hidden;
 }
 
 .lnb2 .box1 img {
-    width: 160px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    margin-left: 40px;
-    margin-right: 40px;
+  width: 160px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .lnb2 .box1 h4 {
-    width: 220px;
-    margin-left: 40px;
+  width: 220px;
+  margin-left: 40px;
 }
 
 .lnb2 .box2 {
-    width: 250px;
-    height: 105px;
-    float: right;
+  width: 250px;
+  height: 105px;
+  float: right;
 }
 
 .lnb2 .box2 p {
-    width: 220px;
-    margin-top: 5px;
-    font-weight: bold;
+  width: 220px;
+  margin-top: 5px;
+  font-weight: bold;
 }
 
 p.afaf {
-    line-height: 77px;
+  line-height: 77px;
 }
