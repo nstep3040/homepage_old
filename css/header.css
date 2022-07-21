@@ -2,74 +2,75 @@
 @import url("reset.css");
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 body {
-    font-family: 'Nanum Gothic', sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
 }
 a {
-	text-decoration:none !important;
+  text-decoration: none !important;
 }
 .header {
-    width: 1080px;
+  width: 1080px;
 }
 
-.header>img {
-    margin: 0px auto;
-    display: block;
+.header > img {
+  margin: 0px auto;
+  display: block;
 }
 
 .header .inner {
-    width: 1080px;
-    height: 60px;
-    margin: 5px auto;
-    overflow: hidden;
-    background-color: #2475b9;
+  width: 1080px;
+  height: 60px;
+  margin: 5px auto;
+  overflow: hidden;
+  background-color: #2475b9;
 }
 
 .header .inner p {
-    width: 216px;
-    float: left;
-    text-align: center;
-    font-size: 18px;
-    line-height: 60px;
-    font-weight: bold;
+  width: 20%;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+  line-height: 60px;
+  font-weight: bold;
+  margin: 0;
 }
 
 .header .inner p a {
-    color: #fff;
+  color: #fff;
 }
 
 .header .inner p a:hover {
-    color: #ddd;
+  color: #ddd;
 }
 
 .rnb {
-    width: 270px;
+  width: 270px;
 }
 
-.rnb>a>img {
-	margin:10px 0;
-    width: 200px;
+.rnb > a > img {
+  margin: 10px 0;
+  width: 200px;
 }
 
-.rnb>a {
-    display: block;
+.rnb > a {
+  display: block;
 }
 .blog_img {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
 }
 .blog_img > img {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 .footer {
-    width: 1080px;
-    height: 50px;
-    background-color: #002d44;
+  width: 1080px;
+  height: 50px;
+  background-color: #002d44;
 }
 .footer p {
-    margin-left: 70px;
-    line-height: 50px;
-    color: rgba(255, 255, 255, 0.5);
+  margin-left: 70px;
+  line-height: 50px;
+  color: rgba(255, 255, 255, 0.5);
 }
