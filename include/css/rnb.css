@@ -1,13 +1,13 @@
 @charset "utf-8";
 @import url("reset.css");
-.wrap {
-    width: 270px;
+.rnb {
+  width: 270px;
 }
 
-.wrap>a>img {
-    width: 200px;
+.rnb > a > img {
+  width: 200px;
 }
 
-.wrap>a {
-    display: block;
+.rnb > a {
+  display: block;
 }
