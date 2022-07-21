@@ -1,71 +1,70 @@
-    @charset "UTF-8";
-    .t_wrap {
-        width: 580px;
-        margin: 10px auto;
-        overflow: hidden;
-        position: relative;
-    }
-    
-    .t_wrap ul.btn {
-        width: 580px;
-        height: 87px;
-        overflow: hidden;
-        margin-bottom: 30px;
-        margin-top: 10px;
-    }
-    
-    .t_wrap ul.btn li {
-        width: 116px;
-        height: 87px;
-        float: left;
-        margin-bottom: 30px;
-        margin-top: 10px;
-    }
-    
-    .t_wrap ul.btn li a img {
-        width: 116px;
-        height: 77px;
-        margin: 0;
-    }
-    
-    .t_wrap ul a {
-        width: 116px;
-        height: 77px;
-        position: relative;
-    }
-    
-    .t_wrap li a {
-        text-align: center;
-    }
-    
-    .t_wrap ul.content {
-        width: 580px;
-        height: 385px;
-        /* margin-top: 30px; */
-    }
-    
-    .t_wrap ul.content li {
-        height: 385px;
-        width: 580px;
-        margin: 0;
-    }
-    
-    .t_wrap ul.content li:nth-child(1) {
-        background: url(../img/MKS.png) 0 0 no-repeat;
-    }
-    
-    .t_wrap ul.content li:nth-child(2) {
-        background: url(../img/IE55.png) 0 0 no-repeat;
-    }
-    
-    .t_wrap ul.content li:nth-child(3) {
-        background: url(../img/GRE.png) 0 0 no-repeat;
-    }
-    
-    .t_wrap ul.content li:nth-child(4) {
-        background: url(../img/MetalshellPBOF.png) 0 0 no-repeat;
-    }
-    
-    .t_wrap ul.content li:nth-child(5) {
-        background: url(../img/Metalshell.png) 0 0 no-repeat;
-    }
+.t_wrap {
+  width: 580px;
+  margin: 10px auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.t_wrap ul.btn {
+  width: 580px;
+  height: 87px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.t_wrap ul.btn li {
+  width: 116px;
+  height: 87px;
+  float: left;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.t_wrap ul.btn li a img {
+  width: 116px;
+  height: 77px;
+  margin: 0;
+}
+
+.t_wrap ul a {
+  width: 116px;
+  height: 77px;
+  position: relative;
+}
+
+.t_wrap li a {
+  text-align: center;
+}
+
+.t_wrap ul.content {
+  width: 580px;
+  height: 385px;
+  /* margin-top: 30px; */
+}
+
+.t_wrap ul.content li {
+  height: 385px;
+  width: 580px;
+  margin: 0;
+}
+
+.t_wrap ul.content li:nth-child(1) {
+  background: url(../img/MKS.png) 0 0 no-repeat;
+}
+
+.t_wrap ul.content li:nth-child(2) {
+  background: url(../img/IE55.png) 0 0 no-repeat;
+}
+
+.t_wrap ul.content li:nth-child(3) {
+  background: url(../img/GRE.png) 0 0 no-repeat;
+}
+
+.t_wrap ul.content li:nth-child(4) {
+  background: url(../img/MetalshellPBOF.png) 0 0 no-repeat;
+}
+
+.t_wrap ul.content li:nth-child(5) {
+  background: url(../img/Metalshell.png) 0 0 no-repeat;
+}
