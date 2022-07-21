@@ -17,9 +17,9 @@ document.write(`
 <body>
     <div class="wrap">
         <div class="header">
-            <img src="./img/header.jpg">
+            <img src="../img/header.jpg">
             <div class="inner">
-                <p><a href="./index.html">HOME</p></a>
+                <p><a href="../index.html">HOME</p></a>
                 <p><a href="./sub_1.html">INDUSTRY</p></a>
                 <p><a href="./sub_17.html">SOFTWARE</p></a>
                 <p><a href="./sub_14.html">DOWNLOADS</p></a>
