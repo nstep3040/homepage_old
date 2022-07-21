@@ -6,7 +6,7 @@ document.write(`
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/sub1.css">
-	<link rel="stylesheet" href="../css/rnb.css">
+	<link rel="stylesheet" href="../include/css/rnb.css">
 	<link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/notosanskr.css">
 	<style>
 		* { font-family:'Noto Sans KR','나눔 고딕','Nanum Gothic','맑은 고딕' }
